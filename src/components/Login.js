@@ -10,7 +10,7 @@ const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState(false);
-  
+  // eslint-disable-next-line
     const [_user, setUser] = useContext(AuthContext);
     const navigate = useNavigate();
   
